@@ -12,7 +12,7 @@
 
 	<body>
 
-		<header><h1>Rohirrim Tour Booking Confirmation</h1></header>
+		<header><h1>Rohirrim Dude Ranch</h1></header>
 		<nav>
 			<ul>
 				<li><a href="construction.html">Home</a></li>
@@ -27,6 +27,7 @@
 
 
 		<article>
+			<h1>Booking Confirmation</h1>
 		<?php
 			if (isset($_POST['firstname']))
 				echo "<p>First name: {$_POST['firstname']}</p>";
