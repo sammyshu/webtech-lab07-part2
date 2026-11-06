@@ -27,7 +27,7 @@
 
 
 		<article>
-			<h1>Booking Confirmation</h1>
+			<h2>Booking Confirmation</h2>
 		<?php
 			if (isset($_POST['firstname']))
 				echo "<p>First name: {$_POST['firstname']}</p>";
